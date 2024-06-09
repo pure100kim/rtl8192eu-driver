@@ -69,7 +69,7 @@ You should see the line ```driver=8192eu```
 
 
 
-```network:1
+network:1
  
        description: Wireless interface
        
