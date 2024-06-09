@@ -1,6 +1,11 @@
 # rtl8192eu drivers 
 
-**NOTE:** This branch is based on Mange's (https://github.com/Mange/rtl8192eu-linux-driver)
+**NOTE:** 
+This branch is based on Mange's (https://github.com/Mange/rtl8192eu-linux-driver)
+I have only modified it to ensure it installs correctly with my kernel version, as it wasn't installing on Debian Linux kernel 5.16.17.
+
+Linux 5.16.17 #2.3.3 SMP Sun June 09 09:15:19 CST 2024 aarch64 GNU/Linux
+
 
 **NOTE:** 
 I agree with Mange's as below comment. Please do not ask for any advice. I have only modified it to ensure it installs correctly with the kernel version.
