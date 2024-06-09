@@ -81,7 +81,7 @@ You should see the line ```driver=8192eu```
 
 
 
-##Installing progesss message##
+## Installing progesss message ##
 
    root@prue100kim:/home/pure100kim/rtl8192eu-linux-driver# make && sudo make install
 
