@@ -87,7 +87,7 @@ This is just a "mirror". I have no knowledge about this code or how it works. Ex
 
 8-1.(Option) lshw install (lshw 조회가 안되면 설치를 해주세요.)
 
-    ```shell
+    ```
     sudo apt update
     sudo apt install lshw
     ```
