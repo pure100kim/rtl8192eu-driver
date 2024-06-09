@@ -32,7 +32,7 @@ This is just a "mirror". I have no knowledge about this code or how it works. Ex
 
 
 
-## Installing progesss message.
+** Installing progesss message :**
 
 root@prue100kim:/home/pure100kim/rtl8192eu-linux-driver# make && sudo make install
 
@@ -63,6 +63,8 @@ install -p -m 644 8192eu.ko  /lib/modules/5.16.17/kernel/drivers/net/wireless/
 /sbin/depmod -a 5.16.17-sun50iw9
 
 root@pure100kim:/home/pure100kim/rtl8192eu-linux-driver#
+
+
 
 
     
