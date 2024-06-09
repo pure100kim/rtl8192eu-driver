@@ -80,19 +80,9 @@ You should see the line ```driver=8192eu```
 
 ## Using as AP
 
-Reference: Intelbras IWA 3001 USB WiFi Adapter  
-Devices using the 8192eu chip can serve as decent access points, with speeds up to ~50Mbps.  
- 
-Using hostapd to manage your AP, set the proper ht-capab field for this device, which is:  
 
-`HT_CAPAB=[RX-STBC1][SHORT-GI-40][SHORT-GI-20][DSSS_CCK-40][MAX-AMSDU-7935]`
 
-Optionally enable wideband, if you don't have neighbours:  
-Note that while this will result in a increase in network throughput it may cause clients further away to fail connecting.  
-It may also make the device work better with repeaters repeating its signal.  
 
-`HT_CAPAB=[HT40+][RX-STBC1][SHORT-GI-40][SHORT-GI-20][DSSS_CCK-40][MAX-AMSDU-7935]` (for channels 1-7), or  
-`HT_CAPAB=[HT40-][RX-STBC1][SHORT-GI-40][SHORT-GI-20][DSSS_CCK-40][MAX-AMSDU-7935]` (for channels 5-13)
 
 
 ## Submitting patches
