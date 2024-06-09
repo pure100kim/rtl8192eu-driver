@@ -73,7 +73,7 @@ configuration: broadcast=yes driver=rtl8192eu driverversion=5.16.17 ip=xxx.xxx.x
 
 
 
-## Installing progesss message ##
+## Installing progess message ##
 
    root@prue100kim:/home/pure100kim/rtl8192eu-linux-driver# make && sudo make install
 
