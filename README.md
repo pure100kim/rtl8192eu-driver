@@ -10,6 +10,16 @@ I have only modified it to ensure it installs correctly with my kernel version, 
 Linux 5.16.17 #2.3.3 SMP Sun June 09 09:15:19 CST 2024 aarch64 GNU/Linux
 
 
+Mange's 깃에서 드라이브를 설치하였으나 커널 버전이 맞지 않아 설치가 되지 않았으며 주말 하루 꼬박 고생을 하였습니다.
+
+나의 리눅스 커널 버전에 맞게 드라이브가 설치 되도록 수정하였으며 동작 점검하였습니다.
+
+동글은 다이소에서 구매한 8192eu 입니다. 
+
+첨부 rtl8192eu.jpg 사진을 클릭하면 어떤 제품인지 확인이 가능합니다.
+
+
+
 
 **NOTE:** 
 
