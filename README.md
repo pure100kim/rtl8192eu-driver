@@ -90,7 +90,7 @@ This is just a "mirror". I have no knowledge about this code or how it works. Ex
     ```shell
     sudo apt update
     sudo apt install lshw
-    ```    
+    ```
 
     
    
