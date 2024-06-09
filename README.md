@@ -80,7 +80,7 @@ You should see the line ```driver=8192eu```
 
 ## Using as AP
 
-My usb dongle
+My usb dongle product photo bought Daiso
 
 https://github.com/pure100kim/rtl8192eu-driver/blob/main/rtl8192eu.jpg
 
