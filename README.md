@@ -67,14 +67,23 @@ This is just a "mirror". I have no knowledge about this code or how it works. Ex
    
 You should see the line ```driver=8192eu```
 
+
   *-network:1
+  
        description: Wireless interface
+       
        physical id: a
+       
        bus info: usb@3:1.1
+       
        logical name: wlxa047d721927c
+       
        serial: a0:47:d7:21:92:7c
+       
        capabilities: ethernet physical wireless
+       
        configuration: broadcast=yes driver=rtl8192eu driverversion=5.16.17-......ip=xxx.xxx.x.xx multicast=yes wireless=IEEE 802.11
+       
 
 
 
