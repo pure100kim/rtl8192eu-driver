@@ -68,8 +68,8 @@ This is just a "mirror". I have no knowledge about this code or how it works. Ex
 You should see the line ```driver=8192eu```
 
 
-  *-network:1
-  
+network:1
+ 
        description: Wireless interface
        
        physical id: a
