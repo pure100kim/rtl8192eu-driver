@@ -31,7 +31,12 @@ This is just a "mirror". I have no knowledge about this code or how it works. Ex
     ```
 
 2. make & make install
+
     ```sh
+    make clean
+    ```
+
+   ```sh
     make && sudo make install
     ```
     
