@@ -69,7 +69,7 @@ You should see the line ```driver=8192eu```
 
 
 
-network:1
+```network:1
  
        description: Wireless interface
        
@@ -83,7 +83,7 @@ network:1
        
        capabilities: ethernet physical wireless
        
-       configuration: broadcast=yes driver=rtl8192eu driverversion=5.16.17 ip=xxx.xxx.x.xx multicast=yes wireless=IEEE 802.11
+       configuration: broadcast=yes driver=rtl8192eu driverversion=5.16.17 ip=xxx.xxx.x.xx multicast=yes wireless=IEEE 802.11```
 
 
 
