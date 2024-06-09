@@ -29,7 +29,7 @@ Please do not ask for any advice. I have only modified it to ensure it installs 
 
 This is just a "mirror". I have no knowledge about this code or how it works. Expect no support from me or any contributors here. I just think GitHub is a nicer way of keeping track of this than random forum posts and precompiled binaries being sent by email. I don't want someone else to have to spend 5 days of googling and compiling with random patches until it works.
 
-## Install
+## Install (설치 절차)
 
 1. Clone this repository and change your directory to cloned path.
 
