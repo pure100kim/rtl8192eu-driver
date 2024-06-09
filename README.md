@@ -28,8 +28,8 @@ This is just a "mirror". I have no knowledge about this code or how it works. Ex
 2. make & make install
     ```sh
     make && sudo make install
+    ```
     
-
 3. Distributions based on Debian & Ubuntu have RTL8XXXU driver present & running in kernelspace. To use our RTL8192EU driver, we need to blacklist RTL8XXXU.
 
     ```shell
