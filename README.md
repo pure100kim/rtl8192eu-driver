@@ -80,6 +80,10 @@ You should see the line ```driver=8192eu```
 
 ## Using as AP
 
+My usb dongle
+
+https://github.com/pure100kim/rtl8192eu-driver/blob/main/rtl8192eu.jpg
+
 
 
 
