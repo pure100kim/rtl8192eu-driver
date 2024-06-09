@@ -40,7 +40,7 @@ This is just a "mirror". I have no knowledge about this code or how it works. Ex
     cd rtl8192eu-driver
     ```
 
-2. make & make install
+2. make & make install (make clean은 재설치전 꼭 실행해주세요!)
 
     ```sh
     make clean
