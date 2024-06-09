@@ -29,6 +29,42 @@ This is just a "mirror". I have no knowledge about this code or how it works. Ex
     ```sh
     make && sudo make install
     ```
+
+
+
+## Installing progesss message.
+
+root@prue100kim:/home/pure100kim/rtl8192eu-linux-driver# make && sudo make install
+
+make ARCH=arm64 CROSS_COMPILE= -C /lib/modules/5.16.17-sun50iw9/build M=/home/pure100kim/rtl8192eu-linux-driver  modules
+
+make[1]: Entering directory '/usr/src/linux-headers-5.16.17-sun50iw9'
+
+  CC [M]  /home/pure100kim/rtl8192eu-linux-driver/core/rtw_cmd.o
+
+  CC [M]  /home/pure100kim/rtl8192eu-linux-driver/core/rtw_security.o
+
+.
+
+.
+
+.
+
+  MODPOST /home/pure100kim/rtl8192eu-linux-driver/Module.symvers
+
+  CC [M]  /home/pure100kim/rtl8192eu-linux-driver/8192eu.mod.o
+
+  LD [M]  /home/pure100kim/rtl8192eu-linux-driver/8192eu.ko
+
+make[1]: Leaving directory '/usr/src/linux-headers-5.16.17'
+
+install -p -m 644 8192eu.ko  /lib/modules/5.16.17/kernel/drivers/net/wireless/
+
+/sbin/depmod -a 5.16.17-sun50iw9
+
+root@pure100kim:/home/pure100kim/rtl8192eu-linux-driver#
+
+
     
 3. Distributions based on Debian & Ubuntu have RTL8XXXU driver present & running in kernelspace. To use our RTL8192EU driver, we need to blacklist RTL8XXXU.
 
